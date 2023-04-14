@@ -1,8 +1,9 @@
 <h2>Programming Books List</h2>
+<input type="text" placeholder="please enter value">
 <button disabled="{{isDisabled}}" (click)="handleClick">Show Books</button>
 <ul>
     <li>
-        <img src={{sourceLink1}} alt={{name1}}>
+        <img src={{sourceLink1}}  alt={{name1}}>
         {{name1}} by
         {{author1}}
     </li> 
@@ -10,6 +11,11 @@
     <ul> 
     <li>
         <img src={{sourceLink2}} alt={{name2}}>
+        {{name2}} by
+        {{author2}}
+    </li>
+    <li>
+        <img [src]="src" alt={{name2}}>
         {{name2}} by
         {{author2}}
     </li>
