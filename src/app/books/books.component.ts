@@ -15,6 +15,7 @@ author2:string = 'David Good';
 sourceLink2:string ="https://m.media-amazon.com/images/I/71B4h-dSVzL._AC_UY218_.jpg"
 
 isDisabled:boolean = false;
-handleClick:boolean = false;
-src="https://m.media-amazon.com/images/I/71B4h-dSVzL._AC_UY218_.jpg";
+handleClick(){
+  this.isDisabled = true;
+}
 }
