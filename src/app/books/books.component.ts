@@ -15,7 +15,14 @@ author2:string = 'David Good';
 sourceLink2:string ="https://m.media-amazon.com/images/I/71B4h-dSVzL._AC_UY218_.jpg"
 
 isDisabled:boolean = false;
+
+ngOnInit():void {};
 handleClick(){
-  this.isDisabled = true;
+  this.isDisabled=true;
 }
+
+myName:string ='';
+handleInput(event:any):void {
+  this.myName=event.target.value;
+};
 }
