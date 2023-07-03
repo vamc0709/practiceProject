@@ -19,6 +19,7 @@ isDisabled:boolean = false;
 ngOnInit():void {};
 handleClick(){
   this.isDisabled=true;
+  
 }
 
 myName:string ='';
